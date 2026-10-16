@@ -1,0 +1,13 @@
+# CPU-only PyTorch: Codespaces have no GPU, and this build is much smaller
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+
+numpy>=2.0
+pandas>=2.0
+matplotlib
+scikit-learn>=1.7
+tensorflow
+langchain
+langgraph
+jupyterlab
+cfn-lint
